@@ -1,0 +1,86 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://KenenyMiniSquareFontData.tres" type="DynamicFont" id=1]
+[ext_resource path="res://StatsSplashScreen.gd" type="Script" id=2]
+[ext_resource path="res://Sounds/2019-08-25_-_8bit-Smooth_Presentation_-_David_Fesliyan.mp3" type="AudioStream" id=3]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -21.0
+margin_top = -15.0
+margin_right = 329.0
+margin_bottom = 190.0
+color = Color( 0, 0, 0, 1 )
+
+[node name="LabelStats" type="Label" parent="."]
+margin_right = 320.0
+margin_bottom = 14.0
+custom_fonts/font = ExtResource( 1 )
+text = "Stats"
+align = 1
+valign = 1
+
+[node name="LabelScoreTitle" type="Label" parent="."]
+margin_left = 108.0
+margin_top = 144.0
+margin_right = 162.0
+margin_bottom = 164.0
+custom_fonts/font = ExtResource( 1 )
+text = "Score:"
+align = 1
+valign = 1
+
+[node name="LabelScore" type="Label" parent="."]
+margin_left = 164.0
+margin_top = 144.0
+margin_right = 204.0
+margin_bottom = 164.0
+custom_fonts/font = ExtResource( 1 )
+text = "0"
+valign = 1
+
+[node name="LabelCoinsTitle" type="Label" parent="."]
+margin_left = 45.0
+margin_top = 72.0
+margin_right = 93.0
+margin_bottom = 92.0
+custom_fonts/font = ExtResource( 1 )
+text = "Coins:"
+align = 1
+valign = 1
+
+[node name="LabelCoins" type="Label" parent="."]
+margin_left = 95.0
+margin_top = 72.0
+margin_right = 135.0
+margin_bottom = 92.0
+custom_fonts/font = ExtResource( 1 )
+text = "0"
+valign = 1
+
+[node name="LabelTimeTitle" type="Label" parent="."]
+margin_left = 207.0
+margin_top = 72.0
+margin_right = 247.0
+margin_bottom = 92.0
+custom_fonts/font = ExtResource( 1 )
+text = "time:"
+align = 1
+valign = 1
+
+[node name="LabelTime" type="Label" parent="."]
+margin_left = 247.0
+margin_top = 72.0
+margin_right = 287.0
+margin_bottom = 92.0
+custom_fonts/font = ExtResource( 1 )
+text = "0"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -10.137
+autoplay = true

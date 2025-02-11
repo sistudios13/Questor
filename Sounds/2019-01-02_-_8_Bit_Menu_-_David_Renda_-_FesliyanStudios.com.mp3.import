@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/2019-01-02_-_8_Bit_Menu_-_David_Renda_-_FesliyanStudios.com.mp3-e1ab94ec6f006a9d445dc29fdffe5ca2.mp3str"
+
+[deps]
+
+source_file="res://Sounds/2019-01-02_-_8_Bit_Menu_-_David_Renda_-_FesliyanStudios.com.mp3"
+dest_files=[ "res://.import/2019-01-02_-_8_Bit_Menu_-_David_Renda_-_FesliyanStudios.com.mp3-e1ab94ec6f006a9d445dc29fdffe5ca2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

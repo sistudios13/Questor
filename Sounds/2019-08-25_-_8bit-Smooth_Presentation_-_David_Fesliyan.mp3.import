@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/2019-08-25_-_8bit-Smooth_Presentation_-_David_Fesliyan.mp3-70385150d7a1a8aee0b2128bf9c2b6b6.mp3str"
+
+[deps]
+
+source_file="res://Sounds/2019-08-25_-_8bit-Smooth_Presentation_-_David_Fesliyan.mp3"
+dest_files=[ "res://.import/2019-08-25_-_8bit-Smooth_Presentation_-_David_Fesliyan.mp3-70385150d7a1a8aee0b2128bf9c2b6b6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,48 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Tilemap/tiles_packed.png" type="Texture" id=1]
+
+[node name="Tree" type="Area2D"]
+modulate = Color( 0.576471, 0.415686, 0.415686, 1 )
+z_index = -2
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0, -27 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 306, 72, 18, 54 )
+
+[node name="Sprite4" type="Sprite" parent="."]
+position = Vector2( 0, -64 )
+z_index = -1
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 306, 0, 54, 54 )
+
+[node name="Sprite5" type="Sprite" parent="."]
+position = Vector2( 48, -71 )
+z_index = -1
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 288, 0, 18, 18 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( -16.5102, -31.3716 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 334, 89, 17, 11 )
+
+[node name="Sprite3" type="Sprite" parent="."]
+position = Vector2( 33.0332, -62.7079 )
+texture = ExtResource( 1 )
+flip_h = true
+region_enabled = true
+region_rect = Rect2( 342, 72, 18, 18 )
+
+[node name="Sprite6" type="Sprite" parent="."]
+position = Vector2( 13, -32.63 )
+texture = ExtResource( 1 )
+flip_h = true
+flip_v = true
+region_enabled = true
+region_rect = Rect2( 333, 90, 9, 9 )
